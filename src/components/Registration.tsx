@@ -43,9 +43,13 @@ export const Registration = () => {
                 <div className="text-center">
                   <p className="text-muted-foreground mb-2">Registration Fee</p>
                   <p className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-primary mb-2">
-                    TBD
+                    €140
                   </p>
                   <p className="text-sm text-muted-foreground">Per Team</p>
+                  <div className="mt-4 pt-4 border-t border-border/50">
+                    <p className="text-lg font-semibold text-primary">€40 Advance Payment Required</p>
+                    <p className="text-sm text-muted-foreground mt-1">Balance due before tournament</p>
+                  </div>
                 </div>
               </div>
 

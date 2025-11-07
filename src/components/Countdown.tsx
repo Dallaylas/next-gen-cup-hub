@@ -39,12 +39,10 @@ export const Countdown = () => {
   const timeUnits = [
     { label: 'Days', value: timeLeft.days },
     { label: 'Hours', value: timeLeft.hours },
-    { label: 'Minutes', value: timeLeft.minutes },
-    { label: 'Seconds', value: timeLeft.seconds },
   ];
   
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-4xl mx-auto">
+    <div className="grid grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto">
       {timeUnits.map((unit) => (
         <Card 
           key={unit.label}

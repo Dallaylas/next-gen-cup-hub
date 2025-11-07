@@ -35,9 +35,18 @@ export const Hero = () => {
           Elite 7-a-Side Tournament
         </p>
         
-        <p className="text-lg md:text-xl text-primary mb-12 font-semibold">
+        <p className="text-lg md:text-xl text-primary mb-8 font-semibold">
           Ages 18-22 • Two Days of Pure Competition
         </p>
+        
+        <div className="mb-12 p-6 bg-gradient-primary/10 border-2 border-primary rounded-lg max-w-2xl mx-auto">
+          <p className="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-primary mb-2">
+            €1,000 Prize Pool
+          </p>
+          <p className="text-muted-foreground text-sm md:text-base">
+            Winner Takes All
+          </p>
+        </div>
         
         <div className="mb-16">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-foreground">
