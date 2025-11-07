@@ -4,81 +4,90 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-card border-t border-border py-12 px-4">
+    <footer className="bg-card border-t border-border py-8 sm:py-12 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">
+            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
               <span className="text-transparent bg-clip-text bg-gradient-primary">
                 NEXT GEN
               </span>
             </h3>
-            <p className="text-muted-foreground">
-              Elite 7-a-side football tournament for the next generation of players aged 18-22.
+            <p className="text-sm sm:text-base text-muted-foreground">
+              Τουρνουά ποδοσφαίρου 7v7 για την επόμενη γενιά παικτών ηλικίας 18-22 ετών.
             </p>
           </div>
 
           <div>
-            <h4 className="font-bold text-lg mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-muted-foreground">
+            <h4 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Γρήγοροι Σύνδεσμοι</h4>
+            <ul className="space-y-2 text-sm sm:text-base text-muted-foreground">
               <li>
-                <a href="#rules" className="hover:text-primary transition-colors">
-                  Tournament Rules
-                </a>
+                <button 
+                  onClick={() => document.getElementById('rules')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-primary transition-colors"
+                >
+                  Κανόνες Τουρνουά
+                </button>
               </li>
               <li>
-                <a href="#registration" className="hover:text-primary transition-colors">
-                  Register Team
-                </a>
+                <button 
+                  onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-primary transition-colors"
+                >
+                  Εγγραφή Ομάδας
+                </button>
               </li>
               <li>
-                <a href="#videos" className="hover:text-primary transition-colors">
-                  Previous Tournaments
-                </a>
+                <button 
+                  onClick={() => document.getElementById('videos')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-primary transition-colors"
+                >
+                  Προηγούμενα Τουρνουά
+                </button>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-bold text-lg mb-4">Connect With Us</h4>
-            <div className="flex gap-4 mb-4">
+            <h4 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Συνδεθείτε Μαζί Μας</h4>
+            <div className="flex gap-3 sm:gap-4 mb-3 sm:mb-4">
               <a 
                 href="#" 
-                className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
                 aria-label="Instagram"
               >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
                 aria-label="YouTube"
               >
-                <Youtube className="w-5 h-5" />
+                <Youtube className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
                 aria-label="Twitter"
               >
-                <Twitter className="w-5 h-5" />
+                <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a 
                 href="mailto:info@nextgenfootballcup.com" 
-                className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+                className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
                 aria-label="Email"
               >
-                <Mail className="w-5 h-5" />
+                <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs sm:text-sm text-muted-foreground">
               info@nextgenfootballcup.com
             </p>
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 text-center text-muted-foreground text-sm">
-          <p>© {currentYear} Next Gen Football Cup. All rights reserved.</p>
+        <div className="border-t border-border pt-6 sm:pt-8 text-center text-muted-foreground text-xs sm:text-sm">
+          <p>© {currentYear} Next Gen Football Cup. Με επιφύλαξη παντός δικαιώματος.</p>
         </div>
       </div>
     </footer>

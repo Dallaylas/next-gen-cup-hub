@@ -8,7 +8,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -21,7 +21,7 @@ export const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in">
           <span className="text-transparent bg-clip-text bg-gradient-primary">
             NEXT GEN
           </span>
@@ -31,46 +31,46 @@ export const Hero = () => {
           </span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto">
-          Elite 7-a-Side Tournament
+        <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto px-4">
+          Τουρνουά Elite 7v7
         </p>
         
-        <p className="text-lg md:text-xl text-primary mb-8 font-semibold">
-          Ages 18-22 • Two Days of Pure Competition
+        <p className="text-base sm:text-lg md:text-xl text-primary mb-8 font-semibold">
+          Ηλικίες 18-22 • Δύο Μέρες Καθαρού Ανταγωνισμού
         </p>
         
-        <div className="mb-12 p-6 bg-gradient-primary/10 border-2 border-primary rounded-lg max-w-2xl mx-auto">
-          <p className="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-primary mb-2">
-            €1,000 Prize Pool
+        <div className="mb-12 p-4 sm:p-6 bg-gradient-primary/10 border-2 border-primary rounded-lg max-w-2xl mx-auto">
+          <p className="text-2xl sm:text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-primary mb-2">
+            Έπαθλο €1,000
           </p>
           <p className="text-muted-foreground text-sm md:text-base">
-            Winner Takes All
+            Ο Νικητής Παίρνει Τα Πάντα
           </p>
         </div>
         
         <div className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-foreground">
-            Next Tournament Starts In
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-8 text-foreground">
+            Το Επόμενο Τουρνουά Ξεκινά Σε
           </h2>
           <Countdown />
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
           <Button 
             variant="hero" 
             size="lg"
             onClick={scrollToRegistration}
-            className="text-lg px-8 py-6"
+            className="text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 w-full sm:w-auto"
           >
-            Register Your Team
+            Εγγράψτε την Ομάδα Σας
           </Button>
           <Button 
             variant="outline" 
             size="lg"
             onClick={() => document.getElementById('rules')?.scrollIntoView({ behavior: 'smooth' })}
-            className="text-lg px-8 py-6"
+            className="text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 w-full sm:w-auto"
           >
-            View Rules
+            Δείτε τους Κανόνες
           </Button>
         </div>
       </div>

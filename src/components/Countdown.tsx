@@ -37,8 +37,8 @@ export const Countdown = () => {
   }, []);
   
   const timeUnits = [
-    { label: 'Days', value: timeLeft.days },
-    { label: 'Hours', value: timeLeft.hours },
+    { label: 'Μέρες', value: timeLeft.days },
+    { label: 'Ώρες', value: timeLeft.hours },
   ];
   
   return (
