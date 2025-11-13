@@ -100,7 +100,7 @@ export const Navigation = () => {
                     <path d="M23.498 6.186a2.99 2.99 0 00-2.106-2.118C19.692 3.5 12 3.5 12 3.5s-7.692 0-9.392.568A2.99 2.99 0 00.502 6.186 31.4 31.4 0 000 12a31.4 31.4 0 00.502 5.814 2.99 2.99 0 002.106 2.118C4.308 20.5 12 20.5 12 20.5s7.692 0 9.392-.568a2.99 2.99 0 002.106-2.118A31.4 31.4 0 0024 12a31.4 31.4 0 00-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
                   </svg>
                 </a>
-                <a href="https://www.tiktok.com/@nextgenfootballgreece" target="_blank" rel="noreferrer" aria-label="TikTok" className="text-foreground hover:text-primary transition-colors">
+                <a href="https://www.tiktok.com/@nextgengreece" target="_blank" rel="noreferrer" aria-label="TikTok" className="text-foreground hover:text-primary transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor" className="w-5 h-5">
                     <path d="M34.5 12.5c0 0-1.2.1-2.9-.1v11.9a8.6 8.6 0 0 1-8.6-8.6v13.7A8.6 8.6 0 1 1 12.5 31V38a16 16 0 1 0 22-25.5z" />
                   </svg>
@@ -151,7 +151,7 @@ export const Navigation = () => {
                 <a href="https://www.youtube.com/@nextgenfootballgreece/featured" target="_blank" rel="noreferrer" aria-label="YouTube" className="text-foreground hover:text-primary transition-colors">
                   YouTube
                 </a>
-                <a href="https://www.tiktok.com/@nextgenfootballgreece" target="_blank" rel="noreferrer" aria-label="TikTok" className="text-foreground hover:text-primary transition-colors">
+                <a href="https://www.tiktok.com/@nextgengreece" target="_blank" rel="noreferrer" aria-label="TikTok" className="text-foreground hover:text-primary transition-colors">
                   TikTok
                 </a>
               </div>

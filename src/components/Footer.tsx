@@ -40,7 +40,7 @@ export const Footer = () => {
                 <Youtube className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
-                href="https://www.tiktok.com/@nextgenfootballgreece"
+                href="https://www.tiktok.com/@nextgengreece"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
