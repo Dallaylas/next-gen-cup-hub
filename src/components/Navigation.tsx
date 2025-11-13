@@ -101,8 +101,9 @@ export const Navigation = () => {
                   </svg>
                 </a>
                 <a href="https://www.tiktok.com/@nextgengreece" target="_blank" rel="noreferrer" aria-label="TikTok" className="text-foreground hover:text-primary transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor" className="w-5 h-5">
-                    <path d="M34.5 12.5c0 0-1.2.1-2.9-.1v11.9a8.6 8.6 0 0 1-8.6-8.6v13.7A8.6 8.6 0 1 1 12.5 31V38a16 16 0 1 0 22-25.5z" />
+                  {/* simpler TikTok mark (uses currentColor) */}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                    <path d="M9 3v10.55A4.45 4.45 0 0 0 13.45 18V8h4V3h-8z" />
                   </svg>
                 </a>
               </div>

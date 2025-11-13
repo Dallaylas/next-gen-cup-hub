@@ -46,8 +46,9 @@ export const Footer = () => {
                 className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
                 aria-label="TikTok"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor" className="w-4 h-4 sm:w-5 sm:h-5">
-                  <path d="M34.5 12.5c0 0-1.2.1-2.9-.1v11.9a8.6 8.6 0 0 1-8.6-8.6v13.7A8.6 8.6 0 1 1 12.5 31V38a16 16 0 1 0 22-25.5z" />
+                {/* simpler TikTok mark (24x24) */}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 sm:w-5 sm:h-5">
+                  <path d="M9 3v10.55A4.45 4.45 0 0 0 13.45 18V8h4V3h-8z" />
                 </svg>
               </a>
             </div>
